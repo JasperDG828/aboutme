@@ -1,5 +1,5 @@
 function loadMd(page) {
-    fetch(`../markdown/${page}.md`).then((res) => {
+    fetch(`./markdown/${page}.md`).then((res) => {
         res.text().then((text) => {
             document.getElementById("md-content").innerHTML = marked.parse(text);
         });
