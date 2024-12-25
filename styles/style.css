@@ -1,0 +1,142 @@
+@font-face {
+  font-family: NotoColorEmojiLimited;
+  unicode-range: U+1F1E6-1F1FF;
+  src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
+}
+body {
+  font-family: "Liberation Sans", sans-serif;
+  color: #003249;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+#top {
+  display: flex;
+  white-space: nowrap;
+}
+#top img {
+  padding-left: 20px;
+}
+
+#nav-btn {
+  margin-top: 30px;
+}
+#nav-btn a {
+  color: #003249;
+  padding: 100px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: x-large;
+  transition: all 0.5s;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+#nav-btn a:hover {
+  text-decoration-color: #003249;
+  cursor: pointer;
+}
+
+#md-content:not(div.photoline) {
+  width: 50vw;
+  position: absolute;
+  left: 20vw;
+}
+
+#title-image {
+  width: 100%;
+  height: 80vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: url("../media/programming-01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+}
+#title-image h1 {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  bottom: 200px;
+  left: 50px;
+}
+#title-image h2 {
+  color: white;
+  font-size: x-large;
+  position: absolute;
+  bottom: 190px;
+  left: 50px;
+}
+#title-image h2 a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  #title-image {
+    width: 100%;
+  }
+}
+#md-content {
+  float: left;
+  padding-bottom: 50px;
+}
+#md-content p:not(img),
+#md-content li {
+  width: 100%;
+  font-size: large;
+}
+#md-content h1 {
+  font-size: xx-large;
+}
+#md-content h3 {
+  font-size: x-large;
+}
+#md-content img {
+  float: right;
+}
+#md-content a {
+  color: #003249;
+}
+
+.photoline {
+  background-color: #003249;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 85vw;
+  position: relative;
+  left: -12.5vw;
+  border-radius: 10px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.photoline img {
+  margin: auto;
+  display: block;
+  margin: 10px;
+  border: solid white 5px;
+  border-radius: 10px;
+}
+.photoline .h {
+  width: 400px;
+}
+.photoline .v {
+  width: 200px;
+}
+
+footer {
+  padding-left: 10px;
+}
+
+.flag {
+  font-family: "NotoColorEmojiLimited", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#contactOptions {
+  float: left;
+  white-space: nowrap;
+}/*# sourceMappingURL=style.css.map */

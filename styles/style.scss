@@ -1,0 +1,151 @@
+@font-face {
+    font-family: NotoColorEmojiLimited;
+    unicode-range: U+1F1E6-1F1FF;
+    src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
+}
+
+$text-color: #003249;
+body {
+    font-family: "Liberation Sans", sans-serif;
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+main {
+    width: 100%;
+}
+
+#top {
+    display: flex;
+    white-space: nowrap;
+    img {
+        padding-left: 20px;
+    }
+}
+#nav-btn {
+    margin-top: 30px;
+    a {
+        color: $text-color;
+        padding: 100px;
+        font-weight: 700;
+        font-style: normal;
+        font-size: x-large;
+        transition: all 0.5s;
+        text-decoration: underline;
+        text-decoration-color: white;
+        &:hover {
+            text-decoration-color: $text-color;
+            cursor: pointer;
+        }
+    }
+}
+#md-content:not(div.photoline) {
+    width: 50vw;
+    position: absolute;
+    left: 20vw;
+}
+#title-image {
+    width: 100%;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: url("../media/programming-01.jpg");
+    background-size: cover;
+    background-position: center;
+
+    background-blend-mode: darken;
+
+    h1 {
+        color: white;
+        font-size: 100px;
+        position: absolute;
+        bottom: 200px;
+        left: 50px;
+    }
+    h2 {
+        color: white;
+        font-size: x-large;
+        position: absolute;
+        bottom: 190px;
+        left: 50px;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #title-image {
+        width: 100%;
+    }
+}
+
+#md-content {
+    float: left;
+    p:not(img),
+    li {
+        width: 100%;
+        font-size: large;
+    }
+    h1 {
+        font-size: xx-large;
+    }
+    h3 {
+        font-size: x-large;
+    }
+    img {
+        float: right;
+    }
+    a {
+        color: #003249;
+    }
+    padding-bottom: 50px;
+}
+
+.photoline {
+    background-color: #003249;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85vw;
+    position: relative; // Changed from absolute to relative
+    left: -12.5vw; // Adjusted to center the div
+    border-radius: 10px;
+    height: auto;
+    margin-bottom: 20px; // Added margin-bottom to create space below the div
+    img {
+        margin: auto;
+        display: block;
+        margin: 10px;
+        border: solid white 5px;
+        border-radius: 10px;
+    }
+    .h {
+        width: 400px;
+    }
+    .v {
+        width: 200px;
+    }
+}
+footer {
+    padding-left: 10px;
+}
+.flag {
+    font-family:
+        "NotoColorEmojiLimited",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
+}
+#contactOptions {
+    float: left;
+    white-space: nowrap;
+}
