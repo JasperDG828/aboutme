@@ -1,4 +1,6 @@
 function loadMd(page) {
+    if (window.location["host"] == "jasperdg828.github.io") { let url = `./aboutme/markdown/${page}.md` }
+    else { let url = `./markdown/${page}.md` }
     fetch(`./markdown/${page}.md`).then((res) => {
         res.text().then((text) => {
             document.getElementById("md-content").innerHTML = marked.parse(text);
