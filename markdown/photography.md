@@ -6,7 +6,7 @@
 
 ### Evolution
 
-<img src="../media/textimages/donut.png" alt="One of my first 3D Renders: The Donut" width="200"/>Since then, I have been taking photos whenever I had the opportunity for beautiful shots and shared them on my instagram <a href="https://instagram.com/jasperdg_photography" target="_blank">@jasperdg_photography</a>. (Used to be jdg_be) During this time, I also started experimenting with the 3D-program Blender. You might find a few works, but I haven't used it in some time. My instagram-account was known for its typical donut, which I created while learning Blender using a common youtube-tutorial series. A few personal photo-highlights in my journey would be:
+<img src="./media/textimages/donut.png" alt="One of my first 3D Renders: The Donut" width="200"/>Since then, I have been taking photos whenever I had the opportunity for beautiful shots and shared them on my instagram <a href="https://instagram.com/jasperdg_photography" target="_blank">@jasperdg_photography</a>. (Used to be jdg_be) During this time, I also started experimenting with the 3D-program Blender. You might find a few works, but I haven't used it in some time. My instagram-account was known for its typical donut, which I created while learning Blender using a common youtube-tutorial series. A few personal photo-highlights in my journey would be:
 -  <b>The atomium</b> <i>(August 2022 - Brussels,<b class="flag">🇧🇪</b>)</i>
 -  <b>A drone-photo of the sea</b><i> (November 2022 - Cadzand, <b class="flag">🇳🇱</b>) </i>
 -  <b>Frozen plants in the winter</b><i> (December 2022 - Wichelen, <b class="flag">🇧🇪</b>)</i>
@@ -17,14 +17,14 @@
 -  <b>Some boats</b><i> (October 2024 - Den Osse, <b class="flag">🇳🇱</b>)</i>
 
 <div class="photoline">
-<img src="../media/textimages/atomium.jpg" class="h"/>
-<img src="../media/textimages/sea.jpg" class="h"/>
-<img src="../media/textimages/frozenplants.jpg" class="h"/>
-<img src="../media/textimages/seagreece.jpg" class="h"/>
-<img src="../media/textimages/metro.jpg" class="h"/>
-<img src="../media/textimages/stjoseph.jpg" class="v"/>
-<img src="../media/textimages/bled.jpg" class="v"/>
-<img src="../media/textimages/boats.jpg" class="v"/>
+<img src="./media/textimages/atomium.jpg" class="h"/>
+<img src="./media/textimages/sea.jpg" class="h"/>
+<img src="./media/textimages/frozenplants.jpg" class="h"/>
+<img src="./media/textimages/seagreece.jpg" class="h"/>
+<img src="./media/textimages/metro.jpg" class="h"/>
+<img src="./media/textimages/stjoseph.jpg" class="v"/>
+<img src="./media/textimages/bled.jpg" class="v"/>
+<img src="./media/textimages/boats.jpg" class="v"/>
 </div>
 <br/>
 
