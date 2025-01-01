@@ -11,10 +11,6 @@ body {
   width: 100%;
 }
 
-main {
-  width: 100%;
-}
-
 #top {
   display: flex;
   white-space: nowrap;
@@ -114,7 +110,8 @@ main {
   height: auto;
   margin-bottom: 20px;
 }
-.photoline img {
+.photoline img,
+.photoline iframe {
   margin: auto;
   display: block;
   margin: 10px;

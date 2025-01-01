@@ -12,9 +12,6 @@ body {
     padding: 0;
     width: 100%;
 }
-main {
-    width: 100%;
-}
 
 #top {
     display: flex;
@@ -114,7 +111,8 @@ main {
     border-radius: 10px;
     height: auto;
     margin-bottom: 20px; // Added margin-bottom to create space below the div
-    img {
+    img,
+    iframe {
         margin: auto;
         display: block;
         margin: 10px;
