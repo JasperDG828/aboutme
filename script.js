@@ -1,4 +1,6 @@
 function loadMd(page) {
+    params = new URLSearchParams(window.location.search);
+    if (params.get("lang") == "nl") { page = "nl/" + page }
     if (window.location["host"] == "jasperdg828.github.io") { let url = `./aboutme/markdown/${page}.md` }
     else { let url = `./markdown/${page}.md` }
     fetch(`./markdown/${page}.md`).then((res) => {
@@ -32,7 +34,7 @@ function loadPage(page) {
         loadImage("./media/pages/programming-01.jpg", 0.3)
         loadMd(page)
     } else if (page == "photography") {
-        setSocial("instagram", "jasperdg_photography", "https://instagram.com/jasperdg_photography")
+        setSocial("flickr", "Jasper De Gussemé", "https://www.flickr.com/photos/jasperdegusseme/")
         setTitle("Photography")
         loadImage("./media/pages/photography-01.jpg", 0.3)
         loadMd(page)
